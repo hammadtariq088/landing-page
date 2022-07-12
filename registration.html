@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>LOGOIPSUM REGISTER</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- font family -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <!-- validation.js -->
+    <script src="assets/validation.js"></script>
+    <!-- style.css -->
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+
+    <!-- registration -->
+
+    <section class="register-section">
+
+        <div class="register-section-inner">
+
+            <div class="register-section-inner-left">
+                <div class="register-logo-section">
+                    <img src="assets/img/logo.png" alt="register logo" class="register-logo">
+                </div>
+                <div class="register-img-section">
+                    <img src="assets/img/register-form-img.png" alt="register img" class="register-img">
+                </div>
+            </div>
+
+            <div class="register-section-inner-right">
+                <div class="navbar-btns">
+                    <a href="#" class="already-link">You Already have an account?</a>
+                    <a href="#" class="button-primary">Login</a>
+                </div>
+                <div class="register-section-content">
+                    <a href="#">
+                        <h5>
+                            <i class="fa fa-arrow-left register-icon"></i>Back</h5>
+                    </a>
+                    <h2>Register your self as a
+                        <br/>
+                        <span>doctor!</span>
+                    </h2>
+                    <p>Please provide required details below.</p>
+                </div>
+                <div class="register-form">
+                    <form name="RegForm" onsubmit="submitForm(); return false">
+                        <input type="text" id="fname" name="fname" placeholder="Enter First Name" class="form-fields">
+                        <input type="text" id="lname" name="lname" placeholder="Enter Last Name" class="form-fields">
+                        <select id="options" name="specialize" class="form-fields" type="text">
+                            <option value="">Select Option</option>
+                            <option value="">Medical genetics</option>
+                            <option value="">Internal medicine</option>
+                            <option value="">Dermatology</option>
+                            <option value="">Anesthesiology</option>
+                        </select>
+                        <input type="text" id="clinicname" name="clinicname" placeholder="Enter Clinic Name" class="form-fields">
+                        <input type="text" id="email" name="email" placeholder="Enter Email Address" class="form-fields">
+                        <input type="text" id="number" name="number" placeholder="Enter Phone Number" class="form-fields">
+                        <input type="text" id="address" name="address" placeholder="Enter Address" class="form-fields">
+                        <input type="checkbox" id="terms-condition" name="terms" value="check" class="check-box">
+                        <label>By clicking this you accept our
+                            <a href="#">
+                                <span>Terms & Condition</span>
+                            </a> and
+                            <a href="#">
+                                <span>Privicy Policy</span>
+                            </a>
+                        </label>
+                        <input type="submit" name="submit" value="Send" class="button-secondary" onclick="if(!this.form.checkbox.checked){alert('You must agree to the terms first.');return false}">
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+
+</body>
+
+</html>

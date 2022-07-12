@@ -1,0 +1,1165 @@
+/* ===============================CSS Standards ==================================*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 74px;
+    line-height: 72px;
+    letter-spacing: 0.005em;
+    text-transform: capitalize;
+    color: #2B2C28;
+}
+
+h2{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 54px;
+    text-transform: capitalize;
+    color: #2B2C28;
+}
+
+h3{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: -0.01em;
+    text-transform: capitalize;
+    color: #2B2C28;
+    text-align: center
+}
+
+h4{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #2B2C28;
+}
+
+
+h5{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #2B2C28;
+
+
+}
+
+h6{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #2B2C28;
+
+}   
+
+p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #676767;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #676767;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+span{
+    color: #06D6A0;
+}
+
+label{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #676767;
+}
+
+::placeholder{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #676767;
+    opacity: 0.4;
+}
+
+.button-primary{
+    border: 2px solid #06D6A0;
+    border-radius: 12px;
+    background: transparent;
+    color: #06D6A0;
+    padding: 1rem 3rem;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.button-primary:hover{
+    background: #06D6A0;
+    color: #fff;
+    cursor: pointer;
+}
+
+.button-secondary{
+    background: #06D6A0;
+    border-radius: 12px;
+    padding: 1rem 2rem;
+    color: #fff;
+    border: 2px solid #06D6A0;
+    padding: 1rem 3rem;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.button-secondary:hover{
+    background: transparent;
+    border: 2px solid #06D6A0;
+    color: #06D6A0;
+    cursor: pointer;
+}
+
+.container{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0px auto;
+}
+
+.social-icons{
+    background: #FCFCFC;
+    font-size: 16px;
+}
+
+/* header */
+
+.navbar{
+    background: transparent;   
+    padding: 3rem 0rem;
+}
+
+.navbar-inner{
+    display: flex;
+}
+
+.navbar-logo {
+    width: 50%;
+}
+
+.navbar-btns {
+    width: 50%;
+    text-align: end;
+}
+
+.navbar-btns .button-primary {
+    margin-right: 1rem;
+}
+
+/* hero */
+
+.hero {
+    margin: 20px 0px 100px 0px;
+  }
+
+.hero-inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.hero-content h1{
+    padding-right: 1.2rem;
+}
+
+.hero-content p{
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.hero-content {
+    width: 50%;
+}
+
+.hero-img {
+    width: 50%;
+}
+
+/* .hero-search{
+    display: flex;
+    align-items: center;
+}
+
+.hero-form{
+    background: #FFFFFF;
+    border: 0.5px solid #E0E0E0;
+    box-shadow: 0px 40px 80px -22px rgba(98, 89, 89, 0.09);
+    border-radius: 12px;
+    padding: 1rem 2rem 1rem 2rem;
+    margin-right: 1rem;
+    width: 40rem;
+} */
+
+/* inner sections */
+
+/* book treatment abroad */
+
+.book-treatment-abroad{
+    margin: 100px 0px;
+    background: #FCFCFC;
+    padding: 100px 0px;
+}
+
+.book-treatment-abroad-title h5{
+    color: #06D6A0;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.book-treatment-abroad-title h2{
+    text-align: center;
+}
+
+.book-treatment-abroad-title{
+    margin-bottom: 50px;
+}
+
+.book-treatment-steps{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.book-treatment-boxes{
+    background: #FCFCFC;
+    border: 1px solid #06D6A0;
+    border-radius: 12px;
+    padding: 2rem 3rem 3rem 3rem;
+    margin-bottom: 20px;
+}
+
+.book-treatment-box-img{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.book-treatment-box-content h3{
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.book-treatment-box-content p{
+    text-align: center;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+/* quality-health-doctors */
+
+.quality-health-doctors{
+    margin: 100px 0px;
+}
+
+.quality-health-doctors-inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quality-health-doctors-content{
+    width: 50%;
+}
+
+.quality-health-doctors-img-section{
+    width: 50%;
+}
+
+.quality-health-doctors-content h5{
+    color: #06D6A0;
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.quality-health-doctors-content h2{
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.quality-health-doctors-content p{
+    text-align: left;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    padding-right: 15rem;
+}
+
+.quality-health-doctors-icon {
+    width: 15px;
+    height: 16px;
+    border-radius: 1px;
+    margin-right: 10px;
+}
+
+.quality-health-doctors-btn{
+    margin-top: 45px;
+}
+
+/* be dentour partner */
+
+.be-dentour-partner{
+    margin: 100px 0px;
+    padding: 100px 0px;
+    background: #FCFCFC; 
+}
+
+.be-dentour-partner-inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.be-dentour-partner-content{
+    width: 50%;
+}
+
+.be-dentour-partner-img-section{
+    width: 50%;
+}
+
+.be-dentour-partner-content h5{
+    color: #06D6A0;
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.be-dentour-partner-content h2{
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.be-dentour-partner-content p{
+    text-align: left;
+    font-size: 16px;
+    line-height: 30px;
+    padding-right: 14.6rem;
+}
+
+.be-dentour-partner-icon {
+    width: 15px;
+    height: 16px;
+    border-radius: 1px;
+    margin-right: 10px;
+}
+
+.be-dentour-partner-btn{
+    margin-top: 45px;
+}
+
+/* consult doctor anytime */
+
+.consult-doctor-anytime{
+    margin: 100px 0px;
+}
+
+.consult-doctor-anytime-inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.consult-doctor-anytime-content{
+    width: 50%;
+}
+
+.consult-doctor-anytime-img-section{
+    width: 50%;
+}
+
+.consult-doctor-anytime-content h5{
+    color: #06D6A0;
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.consult-doctor-anytime-content h2{
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.consult-doctor-anytime-content p{
+    text-align: left;
+    font-size: 16px;
+    line-height: 30px;
+    padding-right: 14.6rem;
+}
+
+.consult-doctor-anytime-icon {
+    width: 15px;
+    height: 16px;
+    border-radius: 1px;
+    margin-right: 10px;
+}
+
+.consult-doctor-anytime-btn{
+    margin-top: 45px;
+}
+
+/* review & experience section */
+
+.review-and-experience-section{
+    margin: 100px 0px 0px 0px;
+    padding: 100px 0px;
+    background: #FCFCFC;
+}
+
+.review-and-experience-section-inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.review-and-experience-inner-left{
+    width: 50%;
+}
+
+.review-and-experience-inner-right{
+    width: 50%;
+}
+
+.review-and-experience-inner-left h5{
+    color: #06D6A0;
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.review-and-experience-inner-left h2{
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.review-and-experience-inner-right h2{
+    text-align: left;
+    display: inline-block;
+    position: relative;
+    top: -28px;
+}
+
+.review-and-experience-inner-right p{
+    text-align: left;
+    font-size: 16px;
+    line-height: 30px;
+    padding-right: 3.7rem;
+}
+
+.review-and-experience-inner-quote {
+    float: right;
+    position: relative;
+    top: -60px;
+  }
+
+.review-and-experience-inner-ratings {
+    display: block;
+    position: relative;
+    top: -17px;
+}  
+
+/* .review-and-experience-inner-right {
+    background: url('/assets/img/quote.png');
+    background-repeat: no-repeat;
+    background-position-x: right;
+  } */
+
+ /* footer  */
+
+ .footer{
+     padding: 60px 0px;
+     background: #06D6A0;
+ }
+
+ .footer-inner-section1, .footer-inner-section2{
+     display: flex;
+ }
+
+ .footer-inner-section1{
+    border-bottom: 1px solid #FCFCFC;
+    margin-bottom: 30px;
+}
+
+.footer-logo-section{width: 50%;}
+.footer-logo-section-content{width: 50%;}
+.footer-copyright-section{width: 50%;}
+.footer-links{width: 50%;};
+
+.rule {
+    color: #fff !important;
+    margin: 30px 0px !important;
+  }
+
+.footer-logo-section-content h6{
+    font-size: 20px;
+    line-height: 24px;
+    color: #FCFCFC;
+    margin-bottom: 10px;
+    text-align: right;
+    padding-right: 4.1rem;
+}
+
+.footer-logo-section-content p{
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.footer-logo-section-content p a{
+    color: #FCFCFC;
+}
+
+.footer-logo-section-content ul{
+    display: flex;
+    padding-right: 0.8rem;
+    margin-bottom: 30px;
+    justify-content: right;
+}
+
+.footer-logo-section-content ul li{
+    margin-right: 10px;
+}
+
+.footer-copyright-section p{
+    color: #FCFCFC;
+    text-align: left;
+}
+
+.footer-copyright-section a{
+    color: #FCFCFC;
+}
+
+.footer-links{
+    display: flex;
+    justify-content: end;
+}
+
+.footer-links .terms-condition, .footer-links .privacy-policy{
+    color: #FCFCFC;
+}
+
+.footer-links .terms-condition{
+    margin-right: 20px;
+}
+
+.footer-icons {
+    font-size: 20px;
+    color: #06D6A0;
+    border: 1px solid #FCFCFC;
+    border-radius: 20px;
+    padding: 10px 12px 10px 12px;
+    background: #FCFCFC;
+}
+
+/* regiter.html css start */
+
+.register-section-inner{
+    display: flex;
+}
+
+.register-section-inner-left{
+    width: 50%;
+    padding: 3rem 2rem 2rem 4.5rem;
+}
+
+.register-section-inner-right{
+    background: #FCFCFC;
+    width: 50%;
+    padding: 3rem 4rem 2rem 4rem;
+}
+
+.register-logo-section {
+    margin-bottom: 60px;
+}
+
+.register-section-inner-right .navbar-btns{
+    text-align: right;
+    width: 100%;
+    margin-bottom: 90px;
+}
+
+.register-section-inner-right .already-link{
+    margin-right: 1rem;
+    background: transparent;
+    color: #2E2E2E;
+}
+
+.register-icon{
+    font-size: 20px;
+    margin-right: 10px;
+    color: #00B183;
+    font-weight: 500;
+}
+
+.register-section-content h5{
+    margin-bottom: 15px;
+}
+
+.register-section-content{
+    margin-bottom: 40px;
+}
+
+.form-fields {
+    display: block;
+    background: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    border-radius: 12px;
+    margin-bottom: 25px;
+    padding: 1.5rem 1.5rem;
+    width: 100%;
+}
+
+.check-box{
+    background: #06D6A0;
+    border: 1px solid #06D6A0;
+    border-radius: 1px;
+}
+
+.register-form .button-secondary{
+    display: block;
+    margin-top: 20px;
+}
+
+
+/* Responsive Queries */
+
+@media screen and (max-width: 1400px) {
+
+    .container{
+        max-width: 1320px;
+    }
+    
+}
+
+@media screen and (max-width: 1200px) {
+
+    .container{
+        max-width: 1140px;
+    }
+
+    /* hero */
+
+    .hero{
+        margin: 50px 0px 100px 0px;
+    }
+
+    .hero-content{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .hero-img{
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero-inner{
+        flex-direction: column;
+    }
+
+    .hero-content h1{
+        text-align: center;
+        padding-right: 0rem;
+    }
+
+    .hero-content p{
+        text-align: center;
+    }
+
+    /* quality health doctors */
+
+    .quality-health-doctors-inner{
+        flex-direction: column-reverse;
+    }
+
+    .quality-health-doctors-img-section{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .quality-health-doctors-content{
+        width: 100%;
+    }
+
+    .quality-health-doctors-content h5{
+        text-align: center;
+    }
+
+    .quality-health-doctors-content h2{
+        text-align: center;
+    }
+
+    .quality-health-doctors-content p{
+        text-align: center;
+        padding-right: 0rem; 
+    }
+
+    .quality-health-doctors-btn{
+        text-align: center;
+    }
+
+    /* be dentour partner */
+
+    .be-dentour-partner-inner{
+        flex-direction: column;
+    }
+
+    .be-dentour-partner-img-section{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .be-dentour-partner-content{
+        width: 100%;
+    }
+
+    .be-dentour-partner-content h5{
+        text-align: center;
+    }
+
+    .be-dentour-partner-content h2{
+        text-align: center;
+    }
+
+    .be-dentour-partner-content p{
+        text-align: center;
+        padding-right: 0rem; 
+    }
+
+    .be-dentour-partner-btn{
+        text-align: center;
+    }
+
+    /* consult doctor anytime */
+
+    .consult-doctor-anytime-inner{
+        flex-direction: column-reverse;
+    }
+
+    .consult-doctor-anytime-img-section{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .consult-doctor-anytime-content{
+        width: 100%;
+    }
+
+    .consult-doctor-anytime-content h5{
+        text-align: center;
+    }
+
+    .consult-doctor-anytime-content h2{
+        text-align: center;
+    }
+
+    .consult-doctor-anytime-content p{
+        text-align: center;
+        padding-right: 0rem; 
+    }
+
+    .consult-doctor-anytime-btn{
+        text-align: center;
+    }
+
+    /* register.html */
+
+    .register-section-inner{
+        flex-direction: column;
+    }
+
+    .register-section-inner-left{
+        width: 100%;
+        padding: 3rem 3rem 3rem 3rem;
+    }
+
+    .register-section-inner-right{
+        width: 100%;
+        padding: 3rem 3rem 3rem 3rem;
+    }
+
+    .register-logo-section{
+        text-align: center;
+    }
+
+    .register-img-section{
+        text-align: center;
+    }
+
+    .register-section-inner-right .navbar-btns{
+        text-align: center;
+    }
+
+    .register-section-content a {
+        text-align: center;
+    }
+
+    .register-section-content h2 {
+        text-align: center;
+    }
+
+    .register-section-content p {
+        text-align: center;
+    }
+
+
+}
+
+@media screen and (max-width: 992px) {
+
+    .container{
+        max-width: 960px;
+    }
+
+    /* consult doctor anytime */
+
+    .review-and-experience-section-inner{
+        flex-direction: column;
+    }
+
+    .review-and-experience-inner-left{
+        width: 100%;
+        margin-bottom: 100px;
+        text-align: center;
+        border-bottom: 1px solid #2b2c28;
+    }
+
+    .review-and-experience-inner-right{
+        width: 100%;
+    }
+
+    .review-and-experience-inner-left h5{
+        text-align: center;
+    }
+
+    .review-and-experience-inner-left h2{
+        text-align: center;
+    }
+
+    .review-and-experience-inner-quote{
+        float: none;
+        display: block;
+        margin: auto;
+    }
+
+    .review-and-experience-inner-ratings{
+        margin: auto;
+    }
+
+    .review-and-experience-inner-right h2{
+        text-align: center;
+        display: block;
+    }
+
+    .review-and-experience-inner-review{
+        margin-bottom: 30px;
+    }
+
+    .review-and-experience-inner-right p{
+        text-align: center;
+        padding-right: 0rem;
+    }
+
+    /* book treatment abroad */
+
+    .book-treatment-steps {
+        flex-direction: column;
+        justify-content: center;
+        max-width: 20rem;
+        margin: auto;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+
+    .container{
+        max-width: 720px;
+    }
+
+    .button-primary{
+        padding: 1rem 2rem;
+        font-size: 18px;
+    }
+
+    .button-secondary{
+        padding: 1rem 2rem;
+        font-size: 18px;
+    }
+
+    /* hero */
+
+    .hero-content h1{
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .hero-right-img {
+        width: 35rem;
+    }
+
+    /* book treatment */
+
+    .book-treatment-abroad-title h2{
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    /* quality health doctors */
+
+    .quality-health-doctors-img{
+        width: 35rem;
+    }
+
+    .quality-health-doctors-content h2{
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .quality-health-doctors-content li {
+        text-align: center;
+      }
+
+    /* be dentour partner*/
+
+    .be-dentour-partner-img{
+        width: 35rem;
+    }
+
+    .be-dentour-partner-content h2{
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    /* consult doctor anytime */
+
+    .consult-doctor-anytime-img{
+        width: 35rem;
+    }
+
+    .consult-doctor-anytime-content h2{
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    /* review & experience section */
+
+    .review-and-experience-inner-left h2, .review-and-experience-inner-right h2{
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    /* footer */
+
+    .footer-inner-section1{
+        flex-direction: column;
+    }
+
+    .footer-logo-section{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .footer-logo-section-content{
+        width: 100%;
+    }
+
+    .footer-logo-section-content h6{
+        text-align: center;
+        padding-right: 0rem;
+    }
+
+    .footer-logo-section-content p{
+        text-align: center;
+    }
+
+    .footer-logo-section-content ul{
+        justify-content: center;
+        padding-right: 0rem;
+    }
+
+    .footer-inner-section2{
+        flex-direction: column-reverse;
+    }
+
+    .footer-copyright-section p{
+        text-align: center;
+    }
+
+    .footer-links{
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .footer-copyright-section{
+        width: 100%;
+    }
+
+    /* register.html */
+
+    .register-img{
+        width: 30rem;
+    }
+
+    .register-section-content h2{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    
+}
+
+@media screen and (max-width: 576px) {
+
+    .container{
+        max-width: 540px;
+    }
+
+    .navbar-inner{
+        flex-direction: column;
+    }
+
+    .navbar-logo{
+        width: 100%;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    .navbar-btns{
+        width: 100%;
+        text-align: center;
+    }
+
+    /* hero */
+
+    .hero{
+        margin: 20px 0px 50px 0px;
+    }
+
+    .hero-right-img{
+        width: 29rem;
+    }
+
+    /* book treatment */
+
+    .book-treatment-abroad{
+        margin: 50px 0px;
+        padding: 50px 0px;
+    }
+
+    /* quality health doctor*/
+
+    .quality-health-doctors{
+        margin: 50px 0px;
+    }
+
+    .quality-health-doctors-img{
+        width: 25rem;
+    }
+
+    /* be dentour partner */
+
+    .be-dentour-partner{
+        margin: 50px 0px;
+        padding: 50px 0px;
+    }
+
+    .be-dentour-partner-img{
+        width: 25rem;
+    }
+
+    /* consult doctor anytime */
+
+    .consult-doctor-anytime{
+        margin: 50px 0px;
+    }
+
+    .consult-doctor-anytime-img{
+        width: 25rem;
+    }
+
+    /* review & experience */
+
+    .review-and-experience-section{
+        margin: 50px 0px;
+        padding: 50px 0px;
+    }
+
+    /* register.html */
+
+    .register-img{
+        width: 25rem;
+    }
+
+    .register-section-inner-right .already-link{
+        margin-bottom: 40px;
+        display: block;
+    }
+
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
